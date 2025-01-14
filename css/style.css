@@ -161,6 +161,7 @@ line-height: 23px;
 /* My Inspiration section styles */
 .my-inspiration-container {
     text-align: center;
+    margin-top: 100px;
 }
 .my-inspiration-title{
     color: rgb(13, 19, 33);
@@ -233,7 +234,7 @@ line-height: 23px;
     
 
     }
-.targrt-content-description{
+.target-content-description{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -242,7 +243,7 @@ line-height: 23px;
     margin: 8px 0px;
 
 }
-.targrt-content-linlk{
+.target-content-link{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
@@ -261,3 +262,131 @@ line-height: 23px;
     padding: 40px;
     margin: 0px 24px;
     }
+
+    /* My Next Target section styles */
+.next-target-container{
+    text-align: center;
+    margin-top: 100px;                                                       
+}
+.next-target-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin: 24px 0px;
+}
+.next-target-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 24px 0px;
+
+}
+.next-target-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    /* margin: 0px 24px; */
+    margin: 30px 0px;
+}
+.next-target-text-container{
+    text-align: left;
+    margin: 16px 0px;
+}
+.next-target-content-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 8px 0px;
+}
+.next-target-content-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 20px 0px;
+
+}
+/* I need Support section styles */
+.support-container{
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    padding: 64px 48px 64px 48px;
+    text-align: center;
+    margin-top: 50px;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 16px 0px;
+}
+.support-description{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 16px 0px;
+    
+}
+.suggesetion-input{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px;
+    width: 548px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.submit{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    border: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+/* footer section styles */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px 32px 150px;
+}
+.footer-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0px 16px;
+}
+.social-icons img{
+    padding-left: 24px;
+}
